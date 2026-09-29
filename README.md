@@ -17,7 +17,7 @@ netflix-data-analytics-python/
 │   └── 01_data_cleaning.ipynb
 ├── screenshots/      # screenshots documenting Task 1
 └── README.md
-
+```
 ## Task 1: Data Cleaning & Preparation
 
 **Objective:** prepare the raw Netflix dataset for reliable downstream analysis.
