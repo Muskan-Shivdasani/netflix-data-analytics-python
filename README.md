@@ -10,9 +10,10 @@ Auspify Technologies "Data Analysis Using Python" internship.
 netflix-data-analytics-python/
 ├── data/
 │   ├── raw/          # original, untouched dataset
-│   └── cleaned/       # output of Task 1
+│   └── cleaned/      # output of Task 1
 ├── notebooks/
 │   └── 01_data_cleaning.ipynb
+├── screenshots/      # screenshots documenting Task 1
 └── README.md
 
 ## Task 1: Data Cleaning & Preparation
