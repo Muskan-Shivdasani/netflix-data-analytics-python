@@ -7,6 +7,8 @@ End-to-end analysis of a Netflix content dataset (8,790 titles) as part of the
 Auspify Technologies "Data Analysis Using Python" internship.
 
 ## Project Structure
+
+```text
 netflix-data-analytics-python/
 ├── data/
 │   ├── raw/          # original, untouched dataset
