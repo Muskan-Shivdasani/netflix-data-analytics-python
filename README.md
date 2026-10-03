@@ -44,3 +44,33 @@ Python, pandas, Jupyter (VS Code)
 ## Author
 Muskan Shivdasani
 [LinkedIn](https://www.linkedin.com/in/muskan-shivdasani-369893277/) · [GitHub](https://github.com/Muskan-Shivdasani)
+
+
+
+## Task 2: Content Type Analysis Dashboard
+
+**Objective:** analyze the distribution of Movies vs. TV Shows in the cleaned dataset.
+
+**Approach:**
+- Loaded `data/cleaned/netflix_cleaned.csv` and re-converted `date_added` to
+  datetime, since CSV format does not preserve pandas dtypes across a save/load
+  cycle.
+- Calculated raw counts and percentage split using `value_counts()`.
+- Built a two-panel dashboard (bar chart + pie chart) in matplotlib/seaborn,
+  using a consistent Netflix-red/blue color scheme for Movie vs. TV Show
+  across both charts.
+
+**Key findings:**
+- Movies: 6,122 titles (69.7%)
+- TV Shows: 2,662 titles (30.3%)
+- Movies outnumber TV Shows by roughly 2.3:1.
+- This base distribution should be kept in mind in later tasks, since any
+  type-level skew will naturally bias raw counts in country/rating breakdowns.
+
+**Output:**
+- `screenshots/Task2_01.content_type_distribution.png` — bar + pie dashboard
+- `screenshots/Task2_02.Loaded_cleaned_dataset.png` 
+- `screenshots/Task2_03.date_type_conversion.png`
+- `screenshots/Task2_04.bar_and_chart_configuration.png`
+
+**Tools:** Python, pandas, matplotlib, seaborn
