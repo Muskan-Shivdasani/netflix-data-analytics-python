@@ -41,10 +41,6 @@ netflix-data-analytics-python/
 ## Tools
 Python, pandas, Jupyter (VS Code)
 
-## Author
-Muskan Shivdasani
-[LinkedIn](https://www.linkedin.com/in/muskan-shivdasani-369893277/) · [GitHub](https://github.com/Muskan-Shivdasani)
-
 
 
 ## Task 2: Content Type Analysis Dashboard
@@ -74,3 +70,8 @@ Muskan Shivdasani
 - `screenshots/Task2_04.bar_and_chart_configuration.png`
 
 **Tools:** Python, pandas, matplotlib, seaborn
+
+
+## Author
+Muskan Shivdasani
+[LinkedIn](https://www.linkedin.com/in/muskan-shivdasani-369893277/) · [GitHub](https://github.com/Muskan-Shivdasani)
