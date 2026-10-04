@@ -5,6 +5,7 @@ Auspify Technologies "Data Analysis Using Python" internship.
 
 ## Project Structure
 
+```text
 netflix-data-analytics-python/
 
 data/
@@ -19,7 +20,7 @@ notebooks/
 screenshots/  screenshots documenting all tasks
 
 README.md
-
+```
 ## Task 1: Data Cleaning & Preparation
 
 **Objective:** prepare the raw Netflix dataset for reliable downstream analysis.
