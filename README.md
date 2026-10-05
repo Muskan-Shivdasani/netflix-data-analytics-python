@@ -1,4 +1,4 @@
-# Netflix Data Analytics -Auspify Technologies Internship
+# Netflix Data Analytics - Auspify Technologies Internship
 
 End-to-end analysis of a Netflix content dataset (8,790 titles) as part of the
 Auspify Technologies "Data Analysis Using Python" internship.
@@ -81,6 +81,16 @@ Python, pandas, matplotlib, seaborn
 
 ## Task 3: Country Wise Netflix Content Analysis
 
+**Objective:** analyze Netflix content availability and distribution across countries.
+
+**Approach:**
+- Loaded `data/cleaned/netflix_cleaned.csv`, re-converted `date_added` to datetime.
+- Counted titles by country using `value_counts()`, selected a top-15 cutoff
+  based on a natural breakpoint in the data (all 15 have 100+ titles).
+- Built three charts: a full top-15 ranking, a second version excluding the
+  US outlier to make mid-tier differences visible, and a stacked bar chart
+  breaking down Movie vs. TV Show share by country using `.groupby()`.
+
 
 ## Key Findings
 
@@ -101,7 +111,12 @@ Python, pandas, matplotlib, seaborn
 - **Country data is incomplete**: 287 titles (3.3% of the cleaned dataset)
   have no recorded country and are excluded from this entire analysis.
 
-  ## Tools
+  **Output:**
+- `screenshots/Task3_01.top15_countries.png` — top 15 ranking
+- `screenshots/Task3_02.top_countries_excl_us.png` — ranking excluding US outlier
+- `screenshots/Task3_03.movie_tv_share_by_country.png` — Movie/TV Show split by country
+
+## Tools
   Python, pandas, matplotlib, seaborn
 
 
