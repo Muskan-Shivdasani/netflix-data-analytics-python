@@ -97,24 +97,24 @@ Python, pandas, matplotlib, seaborn
 - **Content production is highly concentrated**: the top 15 countries account
   for 81.8% of all titles in the cleaned dataset, meaning the remaining ~70
   countries combined contribute less than a fifth of total content.
-- **The United States alone accounts for 36.9%** of all titles — more than a
+- **The United States alone accounts for 36.9%** of all titles - more than a
   third of the entire titles from a single country, making it a clear
   outlier that was excluded from a second chart to make mid-tier differences
   (ranks 2-15) visible.
 - **India has the most extreme Movie/TV Show split among top-producing
-  countries**: 92.3% Movie vs. just 7.7% TV Show — the strongest Movie lean
+  countries**: 92.3% Movie vs. just 7.7% TV Show - the strongest Movie lean
   of any country in the top 10, well above the overall platform average of
   69.7%.
 - **Pakistan, South Korea, and Japan invert the platform's overall trend**,
-  skewing TV Show-heavy instead of Movie-heavy — Pakistan most sharply, at
+  skewing TV Show-heavy instead of Movie-heavy - Pakistan most sharply, at
   83.1% TV Show vs. 16.9% Movie.
 - **Country data is incomplete**: 287 titles (3.3% of the cleaned dataset)
   have no recorded country and are excluded from this entire analysis.
 
   **Output:**
-- `screenshots/Task3_01.top15_countries.png` — top 15 ranking
-- `screenshots/Task3_02.top_countries_excl_us.png` — ranking excluding US outlier
-- `screenshots/Task3_03.movie_tv_share_by_country.png` — Movie/TV Show split by country
+- `screenshots/Task3_01.top15_countries.png` - top 15 ranking
+- `screenshots/Task3_02.top_countries_excl_us.png` - ranking excluding US outlier
+- `screenshots/Task3_03.movie_tv_share_by_country.png` - Movie/TV Show split by country
 
 ## Tools
   Python, pandas, matplotlib, seaborn
